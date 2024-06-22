@@ -19,26 +19,32 @@
 </head>
 <body>
 
-<!-- Your Markdown Table -->
 <table id="languageTable">
-| Language     | Static Typing  | Strong Typing | Type Inference | Polymorphism                   | Garbage Collection | Concurrency       | Compiled/Interpreted | Performance  |
-|:------------:|:--------------:|:-------------:|:--------------:|:------------------------------:|:------------------:|:-----------------:|:--------------------:|:------------:|
-| Fortran      | Static         | Strong        | No             | Ad-hoc, Parametric             | No                 | No                | Compiled             | Native       |
-| Go           | Static         | Strong        | Yes            | Parametric                     | Yes                | Green Threads     | Compiled             | High         |
-| Rust         | Static         | Strong        | Yes            | Ad-hoc, Parametric, Traits     | No                 | Async + Threads   | Compiled             | Native       |
-| ML/SML       | Static         | Strong        | Yes            | Ad-hoc, Parametric             | Yes                | No                | Both*                | High         |
-| OCaML        | Static         | Strong        | Yes            | Ad-hoc, Inheritance, Parametric | Yes               | Threads           | Both*                | High         |
-| Haskell      | Static         | Strong        | Yes            | Ad-hoc, Parametric, Type Classes | Yes              | Async             | Both*                | High         |
-| F#           | Static         | Strong        | Yes            | Ad-hoc, Inheritance, Parametric, Type Classes | Yes | Async + Threads   | Both*                | High         |
-| Simula       | Static         | Strong        | No             | Inheritance                    | No                 | No                | Compiled             | Native       |
-| Eiffel       | Static         | Strong        | No             | Ad-hoc, Inheritance, Parametric | Yes               | No                | Compiled             | Native       |
-| Java         | Static         | Strong        | No*            | Ad-hoc, Inheritance, Parametric | Yes               | Threads           | Just-In-Time         | Medium       |
-| C#           | Static         | Strong        | No*            | Ad-hoc, Inheritance, Parametric | Yes               | Async             | Just-In-Time         | Medium       |
-| Objective-C  | Static         | Strong        | No*            | Ad-hoc, Inheritance           | Yes                | Threads           | Compiled             | Medium       |
-| Swift        | Static         | Strong        | Yes            | Ad-hoc, Inheritance, Parametric | Yes               | Async             | Compiled             | High         |
-| Nim          | Static         | Strong        | Yes            | Ad-hoc, Inheritance, Parametric  | No               | Threads           | Compiled             | Native       |
-| Scala        | Static         | Strong        | Yes            | Ad-hoc, Inheritance, Parametric, Subtype, Type Classes, Traits | Yes  | Actors | Just-In-Time  | Medium       |
-| COBOL        | Static         | Weak          | No             | No                             | No                 | No                | Compiled             | Native       |
-| C            | Static         | Weak          | No             | No                             | No                 | No                | Compiled             | Native       |
-| C++          | Static         | Weak          | No*            | Ad-hoc, Inheritance, Parametric, Subtype | No       | Threads           | Compiled             | Native       |
-| Erlang       | Dynamic        | Strong        | No             | Ad-hoc                         | Yes                | Green Threads     | Comp
+  <thead>
+    <tr>
+      <th>Language</th>
+      <th>Static Typing</th>
+      <th>Strong Typing</th>
+      <th>Type Inference</th>
+      <th>Polymorphism</th>
+      <th>Garbage Collection</th>
+      <th>Concurrency</th>
+      <th>Compiled/Interpreted</th>
+      <th>Performance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fortran</td>
+      <td>Static</td>
+      <td>Strong</td>
+      <td>No</td>
+      <td>Ad-hoc, Parametric</td>
+      <td>No</td>
+      <td>No</td>
+      <td>Compiled</td>
+      <td>Native</td>
+    </tr>
+    <!-- Add the rest of the rows here -->
+  </tbody>
+</table>
