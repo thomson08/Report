@@ -19,32 +19,17 @@
 </head>
 <body>
 
-<table id="simpleTable">
-  <thead>
-    <tr>
-      <th>Column 1</th>
-      <th>Column 2</th>
-      <th>Column 3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Row 1, Cell 1</td>
-      <td>Row 1, Cell 2</td>
-      <td>Row 1, Cell 3</td>
-    </tr>
-    <tr>
-      <td>Row 2, Cell 1</td>
-      <td>Row 2, Cell 2</td>
-      <td>Row 2, Cell 3</td>
-    </tr>
-    <tr>
-      <td>Row 3, Cell 1</td>
-      <td>Row 3, Cell 2</td>
-      <td>Row 3, Cell 3</td>
-    </tr>
-  </tbody>
-</table>
+<div id="content"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+  var markdownString = '## Hello, world!\n\n- This is a list\n- With two items';
+
+  var htmlString = marked(markdownString);
+
+  document.getElementById('content').innerHTML = htmlString;
+</script>
+
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     new Tablesort(document.getElementById('simpleTable'));
