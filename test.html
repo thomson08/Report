@@ -30,6 +30,8 @@
 
     document.getElementById('content').innerHTML = htmlString;
 
-    new Tablesort(document.getElementById('simpleTable'));
+    if (document.getElementById('simpleTable')) {
+      new Tablesort(document.getElementById('simpleTable'));
+    }
   };
 </script>
