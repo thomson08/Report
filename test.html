@@ -33,6 +33,14 @@
         }
     };
     script.src = "https://cdn.jsdelivr.net/npm/marked/marked.min.js";
+    script.onload = function() {
+        var markdownString = '## Hello, world!\n\n- This is a list\n- With two items';
+        var htmlString = marked(markdownString);
+        document.getElementById('content').innerHTML = htmlString;
+        if (document.getElementById('simpleTable')) {
+            new Tablesort(document.getElementById('simpleTable'));
+        }
+    };
     document.head.appendChild(script);
   };
 </script>
