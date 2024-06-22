@@ -1,6 +1,6 @@
 # A Table of Programming Languages
 
-| Language     | Static/Dynamic | Strong/Weak | Subtyping     | Type Inference | Polymorphism                   | Garbage Collection | Concurrency         | Compiled/Interpreted    | Performance  |
+| Language     | Static Typing  | Strong Typing | Subtyping   | Type Inference | Polymorphism                   | Garbage Collection | Concurrency         | Compiled/Interpreted    | Performance  |
 |:------------:|:--------------:|:-----------:|:-------------:|:--------------:|:------------------------------:|:------------------:|:-------------------:|:-----------------------:|:------------:|
 | ML/SML       | Static         | Strong      | No            | Yes            | Parametric                     | Yes                | No                  | Both***                 | High         |
 | OCaML        | Static         | Strong      | Yes           | Yes            | Parametric + Ad-hoc            | Yes                | Threads             | Both***                 | High         |
