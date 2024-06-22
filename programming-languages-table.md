@@ -2,14 +2,14 @@
 
 | Language     | Static Typing  | Strong Typing | Subtyping   | Type Inference | Polymorphism                   | Garbage Collection | Concurrency         | Compiled/Interpreted    | Performance  |
 |:------------:|:--------------:|:-----------:|:-------------:|:--------------:|:------------------------------:|:------------------:|:-------------------:|:-----------------------:|:------------:|
+| Go           | Static         | Strong      | No            | Yes            | Parametric                     | Yes                | Goroutines          | Compiled                | High         |
+| Rust         | Static         | Strong      | No            | Yes            | Parametric + Ad-hoc + Traits   | No                 | Async + Threads     | Compiled                | High         |
 | ML/SML       | Static         | Strong      | No            | Yes            | Parametric                     | Yes                | No                  | Both***                 | High         |
 | OCaML        | Static         | Strong      | Yes           | Yes            | Parametric + Ad-hoc            | Yes                | Threads             | Both***                 | High         |
 | Haskell      | Static         | Strong      | Yes*          | Yes            | Parametric + Type Classes      | Yes                | Async               | Both***                 | High         |
 | Java         | Static         | Strong      | Yes (OO)      | No**           | Parametric + Subtype           | Yes                | Threads             | Just-In-Time            | Medium       |
 | C#           | Static         | Strong      | Yes (OO)      | No**           | Parametric + Subtype + Ad-hoc  | Yes                | Async               | Just-In-Time            | Medium       |
 | Swift        | Static         | Strong      | Yes (OO)      | Yes            | Parametric + Subtype + Ad-hoc  | Yes                | Async               | Compiled                | High         |
-| Go           | Static         | Strong      | No            | Yes            | Parametric                     | Yes                | Goroutines          | Compiled                | High         |
-| Rust         | Static         | Strong      | No            | Yes            | Parametric + Ad-hoc + Traits   | No                 | Async + Threads     | Compiled                | High         |
 | Scala        | Static         | Strong      | Yes (OO)      | Yes            | Parametric + Subtype + Type Classes | Yes            | Actors             | Just-In-Time            | Medium       |
 | C            | Static         | Weak        | No            | No             | No                             | No                 | No                  | Compiled                | High         |
 | C++          | Static         | Weak        | Yes (OO)      | No**           | Parametric + Subtype + Ad-hoc  | No                 | Threads             | Compiled                | High         |
