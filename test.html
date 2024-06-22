@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border: 1px solid #dddddd;
+    }
+    th {
+      cursor: pointer;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+</head>
+<body>
+
+<!-- Your Markdown Table -->
+<table id="languageTable">
+| Language     | Static Typing  | Strong Typing | Type Inference | Polymorphism                   | Garbage Collection | Concurrency       | Compiled/Interpreted | Performance  |
+|:------------:|:--------------:|:-------------:|:--------------:|:------------------------------:|:------------------:|:-----------------:|:--------------------:|:------------:|
+| Fortran      | Static         | Strong        | No             | Ad-hoc, Parametric             | No                 | No                | Compiled             | Native       |
+| Go           | Static         | Strong        | Yes            | Parametric                     | Yes                | Green Threads     | Compiled             | High         |
+| Rust         | Static         | Strong        | Yes            | Ad-hoc, Parametric, Traits     | No                 | Async + Threads   | Compiled             | Native       |
+| ML/SML       | Static         | Strong        | Yes            | Ad-hoc, Parametric             | Yes                | No                | Both*                | High         |
+| OCaML        | Static         | Strong        | Yes            | Ad-hoc, Inheritance, Parametric | Yes               | Threads           | Both*                | High         |
+| Haskell      | Static         | Strong        | Yes            | Ad-hoc, Parametric, Type Classes | Yes              | Async             | Both*                | High         |
+| F#           | Static         | Strong        | Yes            | Ad-hoc, Inheritance, Parametric, Type Classes | Yes | Async + Threads   | Both*                | High         |
+| Simula       | Static         | Strong        | No             | Inheritance                    | No                 | No                | Compiled             | Native       |
+| Eiffel       | Static         | Strong        | No             | Ad-hoc, Inheritance, Parametric | Yes               | No                | Compiled             | Native       |
+| Java         | Static         | Strong        | No*            | Ad-hoc, Inheritance, Parametric | Yes               | Threads           | Just-In-Time         | Medium       |
+| C#           | Static         | Strong        | No*            | Ad-hoc, Inheritance, Parametric | Yes               | Async             | Just-In-Time         | Medium       |
+| Objective-C  | Static         | Strong        | No*            | Ad-hoc, Inheritance           | Yes                | Threads           | Compiled             | Medium       |
+| Swift        | Static         | Strong        | Yes            | Ad-hoc, Inheritance, Parametric | Yes               | Async             | Compiled             | High         |
+| Nim          | Static         | Strong        | Yes            | Ad-hoc, Inheritance, Parametric  | No               | Threads           | Compiled             | Native       |
+| Scala        | Static         | Strong        | Yes            | Ad-hoc, Inheritance, Parametric, Subtype, Type Classes, Traits | Yes  | Actors | Just-In-Time  | Medium       |
+| COBOL        | Static         | Weak          | No             | No                             | No                 | No                | Compiled             | Native       |
+| C            | Static         | Weak          | No             | No                             | No                 | No                | Compiled             | Native       |
+| C++          | Static         | Weak          | No*            | Ad-hoc, Inheritance, Parametric, Subtype | No       | Threads           | Compiled             | Native       |
+| Erlang       | Dynamic        | Strong        | No             | Ad-hoc                         | Yes                | Green Threads     | Comp
