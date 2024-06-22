@@ -1,29 +1,30 @@
 # A Table of Programming Languages
 
-| Language     | Static Typing  | Strong Typing | Subtyping     | Type Inference | Polymorphism                   | Garbage Collection | Concurrency         | Compiled/Interpreted  | Performance  |
-|:------------:|:--------------:|:-------------:|:-------------:|:--------------:|:------------------------------:|:------------------:|:-------------------:|:---------------------:|:------------:|
-| ML/SML       | Static         | Strong        | No            | Yes            | Parametric                     | Yes                | No                  | Compiled              | High         |
-| OCaML        | Static         | Strong        | Yes           | Yes            | Parametric + Ad-hoc            | Yes                | Threads             | Compiled              | High         |
-| Haskell      | Static         | Strong        | Yes*          | Yes            | Parametric + Type Classes      | Yes                | Async               | Compiled              | High         |
-| Java         | Static         | Strong        | Yes (OO)      | No**           | Parametric + Subtype           | Yes                | Threads             | Both (JIT)            | Medium       |
-| C#           | Static         | Strong        | Yes (OO)      | NO**           | Parametric + Subtype + Ad-hoc  | Yes                | Async               | Both (JIT)            | Medium       |
-| Swift        | Static         | Strong        | Yes (OO)      | Yes            | Parametric + Subtype + Ad-hoc  | Yes                | Async               | Compiled              | High         |
-| Go           | Static         | Strong        | No            | Yes            | Parametric                     | Yes                | Goroutines          | Compiled              | High         |
-| Rust         | Static         | Strong        | No            | Yes            | Parametric + Ad-hoc + Traits   | No                 | Async + Threads     | Compiled              | High         |
-| Scala        | Static         | Strong        | Yes (OO)      | Yes            | Parametric + Subtype + Type Classes | Yes           | Actors              | Both (JIT)            | Medium       |
-| C            | Static         | Weak          | No            | No             | No                             | No                 | No                  | Compiled              | High         |
-| C++          | Static         | Weak          | Yes (OO)      | NO**           | Parametric + Subtype + Ad-hoc  | No                 | Threads             | Compiled              | High         |
-| Elixir       | Dynamic        | Strong        | No            | Yes            | Ad-hoc                         | Yes                | Actors              | Interpreted           | Medium       |
-| Lisp         | Dynamic        | Strong        | Yes           | No             | Ad-hoc                         | Yes                | No                  | Both                  | Medium       |
-| Python       | Dynamic        | Strong        | Yes (OO)      | Yes            | Ad-hoc                         | Yes                | Threads + Async     | Interpreted           | Low          |
-| Ruby         | Dynamic        | Strong        | Yes (OO)      | Yes            | Ad-hoc                         | Yes                | Threads             | Interpreted           | Low          |
-| JavaScript   | Dynamic        | Weak          | No            | No             | Ad-hoc                         | Yes                | Async               | Both (JIT)            | Low          |
-| Perl         | Dynamic        | Weak          | Yes (OO)      | No             | Ad-hoc                         | Yes                | Threads             | Interpreted           | Low          |
-  
+| Language     | Static/Dynamic | Strong/Weak | Subtyping     | Type Inference | Polymorphism                   | Garbage Collection | Concurrency         | Compiled/Interpreted    | Performance  |
+|:------------:|:--------------:|:-----------:|:-------------:|:--------------:|:------------------------------:|:------------------:|:-------------------:|:-----------------------:|:------------:|
+| ML/SML       | Static         | Strong      | No            | Yes            | Parametric                     | Yes                | No                  | Both***                 | High         |
+| OCaML        | Static         | Strong      | Yes           | Yes            | Parametric + Ad-hoc            | Yes                | Threads             | Both***                 | High         |
+| Haskell      | Static         | Strong      | Yes*          | Yes            | Parametric + Type Classes      | Yes                | Async               | Both***                 | High         |
+| Java         | Static         | Strong      | Yes (OO)      | Limited**      | Parametric + Subtype           | Yes                | Threads             | Just-In-Time (JIT)      | Medium       |
+| C#           | Static         | Strong      | Yes (OO)      | Limited**      | Parametric + Subtype + Ad-hoc  | Yes                | Async               | Just-In-Time (JIT)      | Medium       |
+| Swift        | Static         | Strong      | Yes (OO)      | Yes            | Parametric + Subtype + Ad-hoc  | Yes                | Async               | Compiled                | High         |
+| Go           | Static         | Strong      | No            | Yes            | Parametric                     | Yes                | Goroutines          | Compiled                | High         |
+| Rust         | Static         | Strong      | No            | Yes            | Parametric + Ad-hoc + Traits   | No                 | Async + Threads     | Compiled                | High         |
+| Scala        | Static         | Strong      | Yes (OO)      | Yes            | Parametric + Subtype + Type Classes | Yes            | Actors             | Just-In-Time (JIT)      | Medium       |
+| C            | Static         | Weak        | No            | No             | No                             | No                 | No                  | Compiled                | High         |
+| C++          | Static         | Weak        | Yes (OO)      | Limited**      | Parametric + Subtype + Ad-hoc  | No                 | Threads             | Compiled                | High         |
+| Elixir       | Dynamic        | Strong      | No            | Yes            | Ad-hoc                         | Yes                | Actors              | Interpreted             | Medium       |
+| Lisp         | Dynamic        | Strong      | Yes           | No             | Ad-hoc                         | Yes                | No                  | Both***                 | Medium       |
+| Python       | Dynamic        | Strong      | Yes (OO)      | Yes            | Ad-hoc                         | Yes                | Threads + Async     | Interpreted             | Low          |
+| Ruby         | Dynamic        | Strong      | Yes (OO)      | Yes            | Ad-hoc                         | Yes                | Threads             | Interpreted             | Low          |
+| JavaScript   | Dynamic        | Weak        | No            | No             | Ad-hoc                         | Yes                | Async               | Just-In-Time (JIT)      | Low          |
+| Perl         | Dynamic        | Weak        | Yes (OO)      | No             | Ad-hoc                         | Yes                | Threads             | Interpreted             | Low          |
 
 \*Note: Haskell’s type class system provides a form of polymorphism that differs from traditional subtyping found in object-oriented languages.
 
 \**Note: Java, C#, and C++ have limited type inference capabilities, such as the use of the `var` keyword in Java and C# or `auto` in C++.
+
+\***Note: Depending on the implementation, these languages can be either compiled or interpreted, offering flexibility for development and production environments.
 
 ## Definitions
 
