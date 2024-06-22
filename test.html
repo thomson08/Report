@@ -19,37 +19,34 @@
 </head>
 <body>
 
-<table id="languageTable">
+<table id="simpleTable">
   <thead>
     <tr>
-      <th>Language</th>
-      <th>Static Typing</th>
-      <th>Strong Typing</th>
-      <th>Type Inference</th>
-      <th>Polymorphism</th>
-      <th>Garbage Collection</th>
-      <th>Concurrency</th>
-      <th>Compiled/Interpreted</th>
-      <th>Performance</th>
+      <th>Column 1</th>
+      <th>Column 2</th>
+      <th>Column 3</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Fortran</td>
-      <td>Static</td>
-      <td>Strong</td>
-      <td>No</td>
-      <td>Ad-hoc, Parametric</td>
-      <td>No</td>
-      <td>No</td>
-      <td>Compiled</td>
-      <td>Native</td>
+      <td>Row 1, Cell 1</td>
+      <td>Row 1, Cell 2</td>
+      <td>Row 1, Cell 3</td>
     </tr>
-    <!-- Add the rest of the rows here -->
+    <tr>
+      <td>Row 2, Cell 1</td>
+      <td>Row 2, Cell 2</td>
+      <td>Row 2, Cell 3</td>
+    </tr>
+    <tr>
+      <td>Row 3, Cell 1</td>
+      <td>Row 3, Cell 2</td>
+      <td>Row 3, Cell 3</td>
+    </tr>
   </tbody>
 </table>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    new Tablesort(document.getElementById('languageTable'));
+    new Tablesort(document.getElementById('simpleTable'));
   });
 </script>
