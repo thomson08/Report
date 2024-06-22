@@ -3,7 +3,7 @@
 | Language     | Static Typing  | Strong Typing | Type Inference | Polymorphism                   | Garbage Collection | Concurrency       | Compiled/Interpreted | Performance  |
 |:------------:|:--------------:|:-------------:|:--------------:|:------------------------------:|:------------------:|:-----------------:|:--------------------:|:------------:|
 | Fortran      | Static         | Strong        | No             | Ad-hoc, Parametric             | No                 | No                | Compiled             | Native       |
-| Go           | Static         | Strong        | Yes            | Parametric                     | Yes                | Green Thread      | Compiled             | High         |
+| Go           | Static         | Strong        | Yes            | Parametric                     | Yes                | Green Threads      | Compiled             | High         |
 | Rust         | Static         | Strong        | Yes            | Ad-hoc, Parametric, Traits     | No                 | Async + Threads   | Compiled             | Native       |
 | ML/SML       | Static         | Strong        | Yes            | Ad-hoc, Parametric             | Yes                | No                | Both*                | High         |
 | OCaML        | Static         | Strong        | Yes            | Ad-hoc, Inheritance, Parametric | Yes               | Threads           | Both*                | High         |
