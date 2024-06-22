@@ -21,17 +21,18 @@
 
 <div id="content"></div>
 
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
   window.onload = function() {
-    var markdownString = '## Hello, world!\n\n- This is a list\n- With two items';
-
-    var htmlString = marked(markdownString);
-
-    document.getElementById('content').innerHTML = htmlString;
-
-    if (document.getElementById('simpleTable')) {
-      new Tablesort(document.getElementById('simpleTable'));
-    }
+    var script = document.createElement('script');
+    script.onload = function () {
+        var markdownString = '## Hello, world!\n\n- This is a list\n- With two items';
+        var htmlString = marked(markdownString);
+        document.getElementById('content').innerHTML = htmlString;
+        if (document.getElementById('simpleTable')) {
+            new Tablesort(document.getElementById('simpleTable'));
+        }
+    };
+    script.src = "https://cdn.jsdelivr.net/npm/marked/marked.min.js";
+    document.head.appendChild(script);
   };
 </script>
