@@ -41,51 +41,18 @@ After completing this course, students will be able to
 
 Moreover, students will be able to acquire the basic ideas of advanced topics such as theorem proving, dependent types and mathematics as a specification and programming language.
 
-Finally, students will learn to appreciate that mathematics is not only important for developers who create the tools used in everyday engineering practice, but also that the knowledge of the mathematical concepts and results underpinning these engineering tools impact everyday engineering practice (and increase your chances to pass a coding interview). I discuss some aspects of this in a these notes on [mathematics as a programming language](https://hackmd.io/s/ByGLTvFDE).
+Finally, students will learn to appreciate that mathematics is not only important for developers who create the tools used in everyday engineering practice, but also that the knowledge of the mathematical concepts and results underpinning these engineering tools impact everyday engineering practice (and increase your chances to pass a coding interview). 
 
 ## Overview 
 
-Together with Compiler Construction this course is the first one of a pair of courses in which we are going to learn the basic theory and practice of designing and implementing a programming language.
-
-#### Summary
-
 The course will have a practical and a theoretical component.
 
-- *The theoretical component* will teach some of the mathematics underpinning the design of programming languages. These will include some of the basics of logic, rewriting, ordered structures, universal algebra, and category theory (type theory will be deferred to next semester's course on compiler construction). Just enough theory to help the writing of interpreters and to gain an outlook on some of the questions guiding programming languages research.  
+- *The theoretical component* will teach some of the mathematics underpinning the design of programming languages such as logic, rewriting, ordered structures, universal algebra, category theory, and type theory. Just enough theory to help the writing of interpreters and to gain an outlook on some of the questions guiding programming languages research.  
 
-- *The practical component* will be about building interpreters for small programming languages. We will start with a calculator, that is, an interpreter for the language of high-school arithmetic, then go on to the smallest proper programming language known as lambda calculus. Lambda calculus provides variables and functions and other programming languages can be seen as extensions of lambda calculus. Thus, once we have an interpreter for lambda caclulus, we will turn our attention to imperative programming languages.
-
-#### Detailed Description
-
-The course is divided in a practical and theoretical component. 
-
-On the practical side, students will learn 
-- the basics of Haskell
-- how to build interpreters in Haskell for small programming languages of increasing complexity:
-  - numbers, addition, multipliciation, fractions, ...
-  - calculator
-  - lambda-calculus
-  - a small functional programming language
-  - a small imperative programming language
-
-This will include the basics of parsing and the use of a parser generator. The aim is to treat programming languages that only have a small number of features. (The course Compiler Construction will show that these concepts scale to mainstream programming languages.)
-
-On the theoretical side, students will learn the fundamental ideas of
-
-- lambda calculus
-- operational and denotational semantics    
-- term rewriting   
-- invariants and well-founded orders     
-- program verification and Hoare logic    
-- some basic concepts of universal algebra and category theory    
-
-On the way, students will encounter different programming languages, theorem provers such as Isabelle, dependently typed programming languages such as Idris, as well as programming concepts such as algebraic data types, recursion, variable binding, polymorphism, and more.
-
-During the course we will pay special attention to compositionality. For example, from a software engineering point of view, we see compositionality in the division between syntax and semantics, or, parsing and interpretation; the programming technique of recursion over abstract syntax trees is another incarnation; in program verification, we will separate termination from partial correctness, which will allow us to give a compositional calculus for program verification known as Hoare logic.
-
+- *The practical component* will be about building interpreters for small programming languages. We will start with a calculator, that is, an interpreter for the language of high-school arithmetic, then go on to the smallest proper programming language known as lambda calculus. Lambda calculus provides variables and functions and other programming languages can be seen as extensions of lambda calculus. Once we have an interpreter for lambda caclulus, we will extend it to larger functional  and/or imperative programming languages.
 ## Required Text
 
-The technical content of the course will be distributed via a git repository. For general background I recommend to read the book Goedel-Escher-Bach.
+The technical content of the course will be distributed via a git repository. For optional general background the book Goedel-Escher-Bach is recommended.
 
 ## Course Materials 
 
