@@ -18,7 +18,7 @@
 
 **The aim of the course** is to have a look under the hood of programming languages. How do programming languages work? Could you design your own programming language? Instead of looking at particular examples of programming languages, we will build our own. 
 
-A companion course, Compiler Construction, will give insight into how the principles we learn this semester scale to industrial scale programming languages such as C++. 
+A companion course, Compiler Construction, on how to scale the material of this semester to industrial scale programming languages such as C++ can be taught in the Spring if there is enough interest.
 
 **Prerequisites:** (MATH 250, CPSC 350) I assume that you know at least one, ideally a few more, programming languages. It would also be good to have learned something about computer architecture. One theme of the course is how to bridge the gap between a programming language and the actual machine, so some awareness of how actual machines work is needed to fully appreciate the material. Finally, while I will introduce the mathematics that we need to engineer our programming languages, some ability in manipulating formal mathematical models as typically acquired in a discrete mathematics or introductory logic course will be needed.[^coursecatalog] 
 
@@ -30,17 +30,14 @@ See also the [Fowler School of Engineering Program Learning Outcomes](https://do
 
 After completing this course, students will be able to
 
+- use an interactive theorem prover (Lean) to program proofs in discrete mathemtics
 - explain how interpreters for functional and imperative programming languages work
 - use a context-free grammar and a parser generator such as BNFC 
 - explain syntax and semantics of various calculi and programming languages
 - understand lambda-calculus as a foundation of programming languages and the concepts of operational and denotational semantics
 - explain various features of programming languages based on the computational model of term-rewriting
-- define and prove basic properties of term-rewriting systems
-- understand the significance of abstract and algebraic data types and their relationship to universal algebra
-- explain the basic principles of program verification
-- use well-founded orders in termination proofs of simple programs
-- use invariants in partial correctness proof of simple programs
-- write Haskell programs that use recursion over algebraic data types
+- understand the significance of abstract and algebraic data types
+- depending on the available time various theoretical topics will be introduced (program verification, term-rewriting systems, use of well-founded orders in termination proofs, use of invariants in partial correctness proofs)
 
 Moreover, students will be able to acquire the basic ideas of advanced topics such as theorem proving, dependent types and mathematics as a specification and programming language.
 
