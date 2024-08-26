@@ -12,7 +12,7 @@
   - 354-03: TuTh 8:30AM - 9:45PM, Hashinger 150 (Jonathan)
 - Office Hours: 
   - Alexander Kurz: TuTh 2:30 - 4PM in Swenson ... 
-  - Jonathan Weinberger: ...
+  - Jonathan Weinberger: TuTh 3 - 5PM in Swenson (3rd floor, huddle spaces)
 
 ## Course Description 
 
