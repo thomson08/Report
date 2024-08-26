@@ -22,3 +22,20 @@
 |8.1| Turing Completeness, Church-Turing Thesis | Y-combinator, `let rec`|| Church Encodings | Scope, implementing recursion ||?| [GEB, Ch.13, p.413 (while programs)](https://www.physixfan.com/wp-content/files/GEBen.pdf) | Theory|
 |8.2|||[VSCode Live Share](https://code.visualstudio.com/learn/get-started/basics), [Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)||Interpreter for a functional PL (group, 2 weeks) |||Lab|
 |||||
+
+
+## Videos, Interviews, Talks, Blogs, Podcasts
+
+https://hackmd.io/@alexhkurz/By0UDsRdA
+
+[^lambda1]:
+	- [Syntax of Lambda Calculus](https://youtu.be/D0kH1BpNr14)
+	- [Parsing Lambda Calculus Expressions 1](https://youtu.be/eYstx7uuE6c)
+	- [Parsing Lambda Calculus Expressions 2](https://youtu.be/yls1NEUlzZA)
+
+[^lambda2]:
+	- [Operational Semantics of Lambda Calculus](https://www.youtube.com/watch?v=h4aT42t7v9c#t=0m)
+	- [Reducing Lambda Expressions](https://youtu.be/for3Meg1Lbc)
+	- [Fixed Point Combinator](https://youtu.be/XvDOwbSh3xE)
+    
+    
