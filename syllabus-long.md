@@ -26,7 +26,7 @@ A companion course, Compiler Construction, on how to scale the material of this 
 
 ## Course Learning Outcomes
 
-See also the [Fowler School of Engineering Program Learning Outcomes](https://docs.google.com/document/d/1OESCtPUolnWFV_qRFuRzNrzxmUtYr5H-dFaYVmPUKY0/edit?usp=sharing).
+See also the [Fowler School of Engineering Program Learning Outcomes](https://docs.google.com/document/d/1OESCtPUolnWFV_qRFuRzNrzxmUtYr5H-dFaYVmPUKY0/edit?usp=sharing) (requires Chapman login).
 
 After completing this course, students will be able to
 
