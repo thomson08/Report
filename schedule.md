@@ -1,7 +1,11 @@
+# Schedule
+
 Overview:
 
 - In Part 1 of the course, we learn how to write from scratch an interpreter for a simple functional programming language. This interpreter will be built on top of powerful mathematical theories including algebraic data types, recursion, context-free grammars and lambda-calculus. On the way, we will also encounter topics such as structural induction, dynamic programming, interactive theorem proving, dependent types, higher-order functions, Curry-Howard correspondence, Church numerals, Turing completeness, intuitionistic logic, natural deduction and more.
 - In Part 2, we will venture into one or more advanced topics. Possible topics include (but are not limited to) concurrency, term rewriting, memory management, type checking and inference, etc. Students will form groups and each group will explore some advanced topic in a project of up to 4 students per group.
+
+Schedule Part 1:
 
 |Wk|Big Idea| Technical Notions | Software Tools | Skills |Topic|Homework|Videos|Readings | Planning|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
