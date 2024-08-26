@@ -62,15 +62,11 @@ All course materials will be made available via a git repository.
 
 Assessment will be divided into a total of 200 points.
 
-- 3 programming [assignments](assignments.md) each worth 20 points (60 points total)
-
-- A [project](projects.md) worth 70 points.
+- 4 programming [assignments](assignments.md) worth 20 + 20 + 20 + 40.
 
 - [Participation](participation.md) worth 10 points.
 
-- A [report](report.md) worth 60 points (approx 12 * 5).
-
-Edit: This had to be adjusted during the semester. At the end we had assignments (45), project (77), report (68). Due to a miscommunication with Canvas, the points for the report contain 8 points that everybody got, so it was, in fact, graded out of 60 as planned.
+- A [report](report.md) worth 90 points.
 
 ## Course Grade Breakdown
 
@@ -78,8 +74,8 @@ Grading scale used for the course:
 
 | Percentage | Letter |
 |---|---|
-| 90 |	A |
-| 80-89 | 	B |
+| 90 | A |
+| 80-89 | B |
 | 70-79	| C |
 | 60-69	| D |
 | < 60 |	F |
@@ -87,6 +83,7 @@ Grading scale used for the course:
 You must score a 70 or above to receive a P when taking the course P/NP.
 
 ## Late Policy
+
 If you need more time for an assignment 
 - convince me that you already have done substantial work (for example by showing me the code in your GitHub repository);
 - explain the special circumstances that would allow me to justify giving you more time.
