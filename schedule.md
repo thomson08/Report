@@ -14,10 +14,10 @@
 | 5.1 | Propositions as Types, Dependent Types || Lean (programming language) | $\wedge$ Logic | [Lean logic game ($\wedge$)](https://adam.math.hhu.de/#/g/trequetrum/lean4game-logic) | Finish ($\wedge$) | ? |[GEB, Ch.7, p.189 (prop.log.)](https://www.physixfan.com/wp-content/files/GEBen.pdf)| Theory |
 | 5.2 |||| Calc ||||| Lab |
 |||||
-| 6 | Higher-order functions, Curry Howard correspondence |free and bound variables|| $\lambda$-calculus (syntax) | Lean logic game (implication) | Finish (implication) | [^lambda1] | [GEB, p.83, breaking phonographs](https://www.physixfan.com/wp-content/files/GEBen.pdf) | Theory on Tue, Lab on Thu |
+| 6 | Higher-order functions, Curry Howard correspondence |free and bound variables|| $\lambda$\-calculus (syntax) | Lean logic game (implication) | Finish (implication) | [^lambda1] | [GEB, p.83, breaking phonographs](https://www.physixfan.com/wp-content/files/GEBen.pdf) | Theory on Tue, Lab on Thu |
 |||||
-| 7.1 | Operational Semantics |$\alpha$ and $\beta$ rule, capture avoiding substitution|| $\lambda$-calculus (semantics)  ||| [^lambda2] | [GEB, Ch.8, p.212 (arithmetic)](https://www.physixfan.com/wp-content/files/GEBen.pdf) | Theory |
-|7.2|||[VSCode Debugger](https://code.visualstudio.com/docs/python/debugging)|Modules, Unit Tests|Interpreter for $\lambda$-calculus|  Interpreter for $\lambda$-calculus |||Lab
+| 7.1 | Operational Semantics |$\alpha$ and $\beta$ rule, capture avoiding substitution|| $\lambda$ -calculus (semantics)  ||| [^lambda2] | [GEB, Ch.8, p.212 (arithmetic)](https://www.physixfan.com/wp-content/files/GEBen.pdf) | Theory |
+|7.2|||[VSCode Debugger](https://code.visualstudio.com/docs/python/debugging)|Modules, Unit Tests|Interpreter for $\lambda$ -calculus|  Interpreter for $\lambda$ -calculus |||Lab
 |||||
 |8.1| Turing Completeness, Church-Turing Thesis | Y-combinator, `let rec`|| Church Encodings | Scope, implementing recursion ||?| [GEB, Ch.13, p.413 (while programs)](https://www.physixfan.com/wp-content/files/GEBen.pdf) | Theory|
 |8.2|||[VSCode Live Share](https://code.visualstudio.com/learn/get-started/basics), [Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)||Interpreter for a functional PL (group, 2 weeks) |||Lab|
