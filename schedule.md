@@ -23,7 +23,7 @@ There will be 4 programming assignments: calculator, lambda-caluclus, a function
 | 4.1 | Parsing, Abstract Syntax, | CST, AST, LALR, Earley, CYK || Context Free Grammars | parsing pen and paper | Calc via CFG (individual)| [CFGs](https://youtu.be/jf1xhZSpCvg), [parse trees](https://youtu.be/3ZLkPwB_c9g) | [Parsing Timeline](https://jeffreykegler.github.io/personal/timeline_v3) | Theory| 
 |4.2|||[Lark](https://lark-parser.readthedocs.io/en/stable/) (parser generator)||Calc with Lark||||Lab
 |||||
-| 5.1 | Propositions as Types, Dependent Types || Lean (programming language) | $\wedge$ Logic | [Lean logic game ($\wedge$)](https://adam.math.hhu.de/#/g/trequetrum/lean4game-logic) | Finish ($\wedge$) | |[GEB, Ch.7, p.189 (prop.log.)](https://www.physixfan.com/wp-content/files/GEBen.pdf)| Theory |
+| 5.1 | Propositions as Types, Dependent Types || Lean (programming language) | $\wedge$ Logic | [Lean logic game ($\wedge$)](https://adam.math.hhu.de/#/g/trequetrum/lean4game-logic) | Finish ($\wedge$) | |[GEB, Ch.7, p.189 (prop.log.)](https://www.physixfan.com/wp-content/files/GEBen.pdf), [Avigad, Heule, and Nawrocki: Logic and Mechanized Reasoning, §3](https://avigad.github.io/lamr/using_lean_as_a_programming_language.html)| Theory |
 | 5.2 |||| Calc ||||| Lab |
 |||||
 | 6 | Higher-order functions, Curry Howard correspondence |free and bound variables|| $\lambda$ - calculus (syntax) | Lean logic game (implication) | Finish (implication) | [^lambda1] | [GEB, p.83, breaking phonographs](https://www.physixfan.com/wp-content/files/GEBen.pdf) | Theory on Tue, Lab on Thu |
