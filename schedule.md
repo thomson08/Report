@@ -1,3 +1,7 @@
+Overview:
+
+- In Part 1 of the course, we learn how to write from scratch an interpreter for a simple functional programming language. This interpreter will be built on top of powerful mathematical theories including algebraic data types, recursion, context-free grammars and lambda-calculus. On the way, we will also encounter topics such as structural induction, dynamic programming, interactive theorem proving, dependent types, higher-order functions, Curry-Howard correspondence, Church numerals, Turing completeness, intuitionistic logic, natural deduction and more.
+- In Part 2, we will venture into one or more advanced topics. Possible topics include (but are not limited to) concurrency, term rewriting, memory management, type checking and inference, etc. Students will form groups and each group will explore some advanced topic in a project of up to 4 students per group.
 
 |Wk|Big Idea| Technical Notions | Software Tools | Skills |Topic|Homework|Videos|Readings | Planning|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -22,11 +26,6 @@
 |8.1| Turing Completeness, Church-Turing Thesis | Y-combinator, `let rec`|| Church Encodings | Scope, implementing recursion ||| [GEB, Ch.13, p.413 (while programs)](https://www.physixfan.com/wp-content/files/GEBen.pdf) | Theory|
 |8.2|||[VSCode Live Share](https://code.visualstudio.com/learn/get-started/basics), [Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)||Interpreter for a functional PL (group, 2 weeks) |||Lab|
 |||||
-
-
-## Videos, Interviews, Talks, Blogs, Podcasts
-
-https://hackmd.io/@alexhkurz/By0UDsRdA
 
 [^lambda1]:
 	- [Syntax of Lambda Calculus](https://youtu.be/D0kH1BpNr14)
