@@ -4,7 +4,7 @@
 
 ## General Information
 - Class: CPSC 354 Programming Languages 
-- Instructor: [Alexander Kurz](https://alexhkurz.github.io/), Jonathan Weinberger
+- Instructor: [Alexander Kurz](https://alexhkurz.github.io/), [Jonathan Weinberger](https://sites.google.com/view/jonathanweinberger)
 - Lectures: 
   - 354-01: TuTh 11:30AM - 12:45PM, Keck 153 (Alexander) 
   - 354-02: TuTh 1PM - 2:15PM, Keck 153 (Alexander) 
