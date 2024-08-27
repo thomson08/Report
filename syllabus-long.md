@@ -3,13 +3,13 @@
 (under construction)
 
 ## General Information
-- Class: CPSC 354 Programming Languages 
+- Class: CPSC 354 Programming Languages (all sections)
 - Instructor: [Alexander Kurz](https://alexhkurz.github.io/), [Jonathan Weinberger](https://sites.google.com/view/jonathanweinberger)
 - Lectures: 
   - 354-01: TuTh 11:30AM - 12:45PM, Keck 153 (Alexander) 
   - 354-02: TuTh 1PM - 2:15PM, Keck 153 (Alexander) 
   - 354-03: TuTh 11:30AM - 12:45PM, Keck 156 (Jonathan)
-  - 354-03: TuTh 8:30AM - 9:45PM, Hashinger 150 (Jonathan)
+  - 354-04: TuTh 8:30AM - 9:45PM, Hashinger 150 (Jonathan)
 - Office Hours: 
   - Alexander Kurz: TuTh 2:30 - 4PM in Swenson ... 
   - Jonathan Weinberger: TuTh 3 - 5PM in Swenson (3rd floor, huddle spaces)
@@ -20,7 +20,7 @@
 
 A companion course, Compiler Construction, on how to scale the material of this semester to industrial scale programming languages such as C++ can be taught in the Spring if there is enough interest.
 
-**Prerequisites:** (MATH 250, CPSC 350) I assume that you know at least one, ideally a few more, programming languages. It would also be good to have learned something about computer architecture. One theme of the course is how to bridge the gap between a programming language and the actual machine, so some awareness of how actual machines work is needed to fully appreciate the material. Finally, while I will introduce the mathematics that we need to engineer our programming languages, some ability in manipulating formal mathematical models as typically acquired in a discrete mathematics or introductory logic course will be needed.[^coursecatalog] 
+**Prerequisites:** (MATH 250, CPSC 350) It is assumed that you know at least one programming language, ideally a few more. It would also be good to have learned something about computer architecture. One theme of the course is how to bridge the gap between a programming language and the actual machine, so some awareness of how actual machines work is needed to fully appreciate the material. Finally, while the mathematics that we need to engineer our programming languages is introduced in the course, some ability in manipulating formal mathematical models will be needed---as typically acquired in a discrete mathematics or introductory logic course.[^coursecatalog] 
 
 [^coursecatalogue]: From the [course catalog](https://catalog.chapman.edu/): Prerequisites, MATH 250, CPSC 350. Students develop an understanding of the organization and design of programming languages through writing interpreters for three different toy languages illustrating a range of programming concepts from pure functional languages to imperative languages with memory management. Moreover, the course will open windows into topics of programming languages research such as parsing, operational and denotational semantics, term rewriting, Hoare logic, verification, and theorem proving. Letter grade with Pass/No Pass option. 
 
@@ -47,13 +47,13 @@ Finally, students will learn to appreciate that mathematics is not only importan
 
 The course will have a practical and a theoretical component.
 
-- *The theoretical component* will teach some of the mathematics underpinning the design of programming languages such as logic, rewriting, ordered structures, universal algebra, category theory, and type theory. Just enough theory to help the writing of interpreters and to gain an outlook on some of the questions guiding programming languages research.  
+- *The theoretical component* will teach some of the mathematics underpinning the design of programming languages such as logic, rewriting, ordered structures, universal algebra, category theory, and type theory. We will cover just enough theory to help the writing of interpreters, and to gain an outlook on some of the questions guiding programming languages research.  
 
-- *The practical component* will be about building interpreters for small programming languages. We will start with a calculator, that is, an interpreter for the language of high-school arithmetic, then go on to the smallest proper programming language known as lambda calculus. Lambda calculus provides variables and functions and other programming languages can be seen as extensions of lambda calculus. Once we have an interpreter for lambda caclulus, we will extend it to larger functional  and/or imperative programming languages.
+- *The practical component* will be about building interpreters for small programming languages. We will start with a calculator, that is, an interpreter for the language of high-school arithmetic, then go on to the smallest proper programming language known as lambda calculus. Lambda calculus provides variables and functions. Other programming languages can be seen as extensions thereof. Once we have an interpreter for lambda caclulus, we will extend it to larger functional and/or imperative programming languages.
 
 ## Required Text
 
-The technical content of the course will be distributed via a git repository. The book Gödel, Escher, Bach is assigned as supplementary reading to provide general background. Students are expected to read the book to deepen their understanding of the course themes.
+The technical content of the course will be distributed via a git repository. Hofstadter's book *Gödel, Escher, Bach* is assigned as supplementary reading to provide general background. Students are expected to read the book to deepen their understanding of the course themes.
 
 ## Course Materials 
 
@@ -63,7 +63,7 @@ All course materials will be made available via a git repository.
 
 Assessment will be divided into a total of 200 points.
 
-- 3 programming [assignments](assignments.md) and a programming project worth 20 + 20 + 20 + 40.
+- 3 programming [assignments](assignments.md) and a programming project worth 20 + 20 + 20 + 40 points.
 
 - [Participation](participation.md) worth 10 points.
 
@@ -86,35 +86,36 @@ You must score a 70 or above to receive a P when taking the course P/NP.
 ## Late Policy
 
 If you need more time for an assignment 
-- convince me that you already have done substantial work (for example by showing me the code in your GitHub repository);
-- explain the special circumstances that would allow me to justify giving you more time.
+- convince the instructor that you already have done substantial work (for example by showing me the code in your GitHub repository);
+- explain the special circumstances that would allow the instructor to justify giving you more time.
 
 (The two items above need to be acted upon before the deadline.)
 
 ## Participation
 
 - It is expected that students attend every lecture. 
-- I also appreciate if students make use of the office hours, which gives me valuable feedback on how the class is going.
+- The instructor also appreciates if students make use of the office hours, giving valuable feedback on how the class is going.
 
 ## Policies required to be listed via University guidelines
 
 #### Chapman University’s Academic Integrity Policy
 
-Chapman University is a community of scholars that emphasizes the mutual responsibility of all members to seek knowledge honestly and in good faith.  Students are responsible for doing their own work and academic dishonesty of any kind will be subject to sanction by the instructor/administrator and referral to the university Academic Integrity Committee, which may impose additional sanctions including expulsion.  Please see the full description of Chapman University's policy on Academic Integrity.
+Chapman University is a community of scholars that emphasizes the mutual responsibility of all members to seek knowledge honestly and in good faith.  Students are responsible for doing their own work and academic dishonesty of any kind will be subject to sanction by the instructor/administrator and referral to the university Academic Integrity Committee, which may impose additional sanctions including expulsion.  Please see the full description of Chapman University's policy on [Academic Integrity](https://www.chapman.edu/academics/academic-integrity/index.aspx).
 
 #### Chapman University’s Students with Disabilities Policy
 
-In compliance with ADA guidelines, students who have any condition, either permanent or temporary, that might affect their ability to perform in this class are encouraged to contact the Office of Disability Services.  If you will need to utilize your approved accommodations in this class, please follow the proper notification procedure for informing your professor(s).  This notification process must occur more than a week before any accommodation can be utilized.  Please contact Disability Services at (714) 516–4520 if you have questions regarding this procedure or for information or to make an appointment to discuss and/or request potential accommodations based on documentation of your disability.  Once formal approval of your need for an accommodation has been granted, you are encouraged to talk with your professor(s) about your accommodation options.  The granting of any accommodation will not be retroactive and cannot jeopardize the academic standards or integrity of the course.
+In compliance with ADA guidelines, students who have any condition, either permanent or temporary, that might affect their ability to perform in this class are encouraged to contact the Office of Disability Services.  If you will need to utilize your approved accommodations in this class, please follow the proper notification procedure for informing your professor(s).  This notification process must occur more than a week before any accommodation can be utilized.  Please contact [Disability Services](https://www.chapman.edu/students/health-and-safety/disability-services/index.aspx) at (714) 516–4520 if you have questions regarding this procedure or for information or to make an appointment to discuss and/or request potential accommodations based on documentation of your disability.  Once formal approval of your need for an accommodation has been granted, you are encouraged to talk with your professor(s) about your accommodation options.  The granting of any accommodation will not be retroactive and cannot jeopardize the academic standards or integrity of the course.
 
 #### Chapman University’s Equity and Diversity Policy
 
-Chapman University is committed to ensuring equality and valuing diversity.  Students and professors are reminded to show respect at all times as outlined in Chapman’s Harassment and Discrimination Policy.  Please review the full description of Harassment and Discrimination Policy.  Any violations of this policy should be discussed with the professor, the Dean of Students and/or otherwise reported in accordance with this policy.”
+Chapman University is committed to ensuring equality and valuing diversity. To access information part of Chapman's DEI (Diversity, Equity, and Inclusion) initiative, including on-campus resources, student-driven clubs, faculty and staff advocates, and how to report a concern or incident, please view the [Diversity and Inclusion Resources](https://www.chapman.edu/diversity/resources/index.aspx). Students and professors are reminded to show respect at all times as outlined in Chapman’s [Discrimination, Harassment, and Retaliation Prevention Policy](https://www.chapman.edu/faculty-staff/human-resources/_files/eodo/dhrp-policy.pdf). Any violations of this policy should be discussed with the professor, the Dean of Students and/or otherwise reported in accordance with this policy.
+
 
 #### Student Support at Chapman University
 
-Over the course of the semester, you may experience a range of challenges that interfere with your learning, such as problems with friend, family, and or significant other relationships; substance use; concerns about personal adequacy; feeling overwhelmed; or feeling sad or anxious without knowing why.  These mental health concerns or stressful events may diminish your academic performance and/or reduce your ability to participate in daily activities.  You can learn more about the resources available through Chapman University’s Student Psychological Counseling Services.
+Over the course of the semester, you may experience a range of challenges that interfere with your learning, such as problems with friend, family, and or significant other relationships; substance use; concerns about personal adequacy; feeling overwhelmed; or feeling sad or anxious without knowing why.  These mental health concerns or stressful events may diminish your academic performance and/or reduce your ability to participate in daily activities.  You can learn more about the resources available through Chapman University’s [Student Psychological Counseling Services](https://www.chapman.edu/students/health-and-safety/psychological-counseling/).
 
-Fostering a community of care that supports the success of students is essential to the values of Chapman University.  Occasionally, you may come across a student whose personal behavior concerns or worries you, either for the student’s well-being or yours.  In these instances, you are encouraged to contact the Chapman University Student Concern Intervention Team who can respond to these concerns and offer assistance. While it is preferred that you include your contact information so this team can follow up with you, you can submit a report anonymously.  24-hour emergency help is also available through Public Safety at 714-997-6763.
+Fostering a community of care that supports the success of students is essential to the values of Chapman University.  Occasionally, you may come across a student whose personal behavior concerns or worries you, either for the student’s well-being or yours.  In these instances, you are encouraged to contact the Chapman University ][Student Concern Intervention Team](https://www.chapman.edu/students/dean-of-students/student-outreach-support/index.aspx) who can respond to these concerns and offer assistance. While it is preferred that you include your contact information so this team can follow up with you, you can submit a report anonymously.  24-hour emergency help is also available through Public Safety at 714-997-6763.
 
 #### Religious Accommodation
 
