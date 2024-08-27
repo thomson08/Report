@@ -1,14 +1,14 @@
-## Programming Assignments
+## Programming Assignments and Project
 
-There will be 2 individual assignments and 2 group assignments.
+There will be 2 individual assignments and 2 group assignments. The second group assignment is also the final project of the course.
 
-- **Github:** Each student creates and maintains a **private** github repository which is used for the report and individual assignments. At the end of the semester your repo will contain one folder for each of the assignments named
+- **Github:** Each student creates and maintains a **private** github repository which is used for the report and the individual assignments. At the end of the semester your individual repo will contain the folders
 
         Report
         Assignment1
         Assignment2
 
-  Each group creates a private repo shared among group members and with the instructor.
+  Moreover, each group creates a private group repo shared among group members and with the instructor.
   - Filenames are part of the specification. **Do not change specified filenames** (automated testing may be performed).
   - Sharing code for assignments is **plagiarism**. So be careful that your repo is private.
   - All students of the group as well as the instructor should be collaborators on the group repo.
