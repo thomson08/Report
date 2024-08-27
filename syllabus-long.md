@@ -67,7 +67,7 @@ Assessment will be divided into a total of 200 points.
 
 - [Participation](participation.md) worth 10 points.
 
-- A [report](report.md) worth 90 points.
+- A [report](report.md) worth 90 points. This also contains weekly homework.
 
 ## Course Grade Breakdown
 
