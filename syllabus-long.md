@@ -11,7 +11,7 @@
   - 354-03: TuTh 11:30AM - 12:45PM, Keck 156 (Jonathan)
   - 354-04: TuTh 8:30AM - 9:45PM, Hashinger 150 (Jonathan)
 - Office Hours: 
-  - Alexander: TuTh 2:30 - 4PM in Swenson ... 
+  - Alexander: TuTh 2:30 - 4PM in Swenson N206
   - Jonathan: TuTh 3 - 5PM in Swenson (3rd floor, huddle spaces)
 - Discord server: https://discord.gg/nYpkwxrB
 

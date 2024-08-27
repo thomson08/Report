@@ -3,14 +3,14 @@
 The report will be written in $\LaTeX$ (https://www.latex-project.org/). A template for your $\LaTeX$ source file [`report.tex`](report/report.tex) and the compiled [pdf](report/report.pdf). See also [`latex-example.tex`](report/latex-example.tex) and [`latex-example.pdf`](report/latex-example.pdf).
 
 - You will keep both `report.tex` and `report.pdf` in a personal private GitHub repository. 
-- Unless specified otherwise your repo should only contain the following files
+- Unless specified otherwise, in the beginning, your repo should only contain the following files
     ```
     .gitignore
-    report.pdf
-    report.tex
+    Report/report.pdf
+    Report/report.tex
     README.md
     ```
-    The readme should contain name and email.
+    The README should contain name and email.
 - For example, if a homework requires programming, make a subdirectory `src` where you store the relevant program files; if you want to include images in your report, make a subdirectory `img`; etc.
 - Always use the same repository for all submissions of the course (get in touch if you think an exception is appropriate).
 - Do not name different versions of your report, instead rely on the version control of git.
