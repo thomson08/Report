@@ -50,6 +50,7 @@ The course will have a practical and a theoretical component.
 - *The theoretical component* will teach some of the mathematics underpinning the design of programming languages such as logic, rewriting, ordered structures, universal algebra, category theory, and type theory. Just enough theory to help the writing of interpreters and to gain an outlook on some of the questions guiding programming languages research.  
 
 - *The practical component* will be about building interpreters for small programming languages. We will start with a calculator, that is, an interpreter for the language of high-school arithmetic, then go on to the smallest proper programming language known as lambda calculus. Lambda calculus provides variables and functions and other programming languages can be seen as extensions of lambda calculus. Once we have an interpreter for lambda caclulus, we will extend it to larger functional  and/or imperative programming languages.
+
 ## Required Text
 
 The technical content of the course will be distributed via a git repository. The book Gödel, Escher, Bach is assigned as supplementary reading to provide general background. Students are expected to read the book to deepen their understanding of the course themes.
@@ -62,7 +63,7 @@ All course materials will be made available via a git repository.
 
 Assessment will be divided into a total of 200 points.
 
-- 4 programming [assignments](assignments.md) worth 20 + 20 + 20 + 40.
+- 3 programming [assignments](assignments.md) and a programming project worth 20 + 20 + 20 + 40.
 
 - [Participation](participation.md) worth 10 points.
 
