@@ -13,7 +13,6 @@
 - Office Hours: 
   - Alexander: TuTh 2:30 - 4PM in Swenson N206
   - Jonathan: TuTh 3 - 5PM in Swenson (3rd floor, huddle spaces)
-- Discord server: https://discord.gg/nYpkwxrB
 
 ## Course Description 
 
