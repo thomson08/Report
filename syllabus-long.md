@@ -52,7 +52,7 @@ The course will have a practical and a theoretical component.
 - *The practical component* will be about building interpreters for small programming languages. We will start with a calculator, that is, an interpreter for the language of high-school arithmetic, then go on to the smallest proper programming language known as lambda calculus. Lambda calculus provides variables and functions and other programming languages can be seen as extensions of lambda calculus. Once we have an interpreter for lambda caclulus, we will extend it to larger functional  and/or imperative programming languages.
 ## Required Text
 
-The technical content of the course will be distributed via a git repository. For optional general background the book Goedel-Escher-Bach is recommended.
+The technical content of the course will be distributed via a git repository. The book Gödel, Escher, Bach is assigned as supplementary reading to provide general background. Students are expected to read the book to deepen their understanding of the course themes.
 
 ## Course Materials 
 
