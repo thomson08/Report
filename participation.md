@@ -6,7 +6,7 @@ In total, there are 10 participation points that can be obtained through a combi
 
 - Attending a Fowler School of Engineering Seminar.[^seminars]
 - Attending office hours.
-- Making an interesting contribution on the Discord server of this course.
+- Making an interesting contribution on the Discord server of this course. (If you want points for Discord participation your "server nickname" should be your first and last name.)
 
 To make it transparent how participation points are awarded, there must be some evidence of your contribution:
 
