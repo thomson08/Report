@@ -11,16 +11,16 @@
   - 354-03: TuTh 11:30AM - 12:45PM, Keck 156 (Jonathan)
   - 354-04: TuTh 8:30AM - 9:45PM, Hashinger 150 (Jonathan)
 - Office Hours: 
-  - Alexander Kurz: TuTh 2:30 - 4PM in Swenson ... 
-  - Jonathan Weinberger: TuTh 3 - 5PM in Swenson (3rd floor, huddle spaces)
+  - Alexander: TuTh 2:30 - 4PM in Swenson ... 
+  - Jonathan: TuTh 3 - 5PM in Swenson (3rd floor, huddle spaces)
 
 ## Course Description 
 
 **The aim of the course** is to have a look under the hood of programming languages. How do programming languages work? Could you design your own programming language? Instead of looking at particular examples of programming languages, we will build our own. 
 
-A companion course, Compiler Construction, on how to scale the material of this semester to industrial scale programming languages such as C++ can be taught in the Spring if there is enough interest.
+A companion course, CPSC 402 Compiler Construction, might be taught in the future, adapting the material of this semester to industrial-scale programming languages such as C++.
 
-**Prerequisites:** (MATH 250, CPSC 350) It is assumed that you know at least one programming language, ideally a few more. It would also be good to have learned something about computer architecture. One theme of the course is how to bridge the gap between a programming language and the actual machine, so some awareness of how actual machines work is needed to fully appreciate the material. Finally, while the mathematics that we need to engineer our programming languages is introduced in the course, some ability in manipulating formal mathematical models will be needed---as typically acquired in a discrete mathematics or introductory logic course.[^coursecatalog] 
+**Prerequisites:** (MATH 250 ( Discrete Mathematics I), CPSC 350) It is assumed that you know at least one programming language, ideally a few more. It would also be good to have learned something about computer architecture. One theme of the course is how to bridge the gap between a programming language and the actual machine, so some awareness of how actual machines work is needed to fully appreciate the material. Finally, while the mathematics that we need to engineer our programming languages is introduced in the course, some ability in manipulating formal mathematical models will be needed---as typically acquired in a discrete mathematics or introductory logic course.[^coursecatalog] 
 
 [^coursecatalogue]: From the [course catalog](https://catalog.chapman.edu/): Prerequisites, MATH 250, CPSC 350. Students develop an understanding of the organization and design of programming languages through writing interpreters for three different toy languages illustrating a range of programming concepts from pure functional languages to imperative languages with memory management. Moreover, the course will open windows into topics of programming languages research such as parsing, operational and denotational semantics, term rewriting, Hoare logic, verification, and theorem proving. Letter grade with Pass/No Pass option. 
 
