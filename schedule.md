@@ -11,9 +11,11 @@ There will be 4 programming assignments: calculator, lambda-caluclus, a function
 
 ## Schedule Part 1
 
-|Wk|Big Idea| Technical Notions | Software Tools | Skills |Topic|Homework|Videos|Readings | Planning|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | Proof=Program (assuming familiarity with discrete math) || Lean (tactics) || [NNG Tutorial World](https://adam.math.hhu.de/#/g/leanprover-community/nng4) | Finish Tut. World, explain one level in the report | [The Shell, Shell Tools](https://missing.csail.mit.edu/) | [GEB, Ch.1, p.41 (formal system)](https://www.physixfan.com/wp-content/files/GEBen.pdf)| Start on Tue, Lab on Thu |
+The Discrete Mathematics column refers to page numbers of Dr Moshier's lecture notes made available on Canvas. 
+
+|Wk|Big Idea| Technical Notions | Software Tools | Skills |Topic|Homework|Videos|Readings|  Planning| Discrete Mathematics 
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | Proof=Program (assuming familiarity with discrete math) || Lean (tactics) || [NNG Tutorial World](https://adam.math.hhu.de/#/g/leanprover-community/nng4) | Finish Tut. World, explain one level in the report | [The Shell, Shell Tools](https://missing.csail.mit.edu/) | [GEB, Ch.1, p.41 (formal system)](https://www.physixfan.com/wp-content/files/GEBen.pdf)| Start on Tue, Lab on Thu | 16, 42-45, 54
 |||||
 | 2 | Recursion |Algebraic Data Types |Shell| Proof by Induction | [NNG Addition World](https://adam.math.hhu.de/#/g/leanprover-community/nng4/world/Addition/level/0) | Finish NNG2, write levels 4 and 5 out in math notation | [Dynamic Programming, Part I](https://www.youtube.com/watch?v=oBt53YbR9Kk) |[GEB, Ch.5, p.111/135 (recursion)](https://www.physixfan.com/wp-content/files/GEBen.pdf)| Theory on Tue, Lab on Thu | 
 |||||
