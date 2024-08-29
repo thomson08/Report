@@ -2,6 +2,13 @@
 
 The report will be written in $\LaTeX$ (https://www.latex-project.org/). A template for your $\LaTeX$ source file [`report.tex`](report/report.tex) and the compiled [pdf](report/report.pdf). See also [`latex-example.tex`](report/latex-example.tex) and [`latex-example.pdf`](report/latex-example.pdf).
 
+Our recommended $\LaTeX$ setup is as follows (all available for Linux, macOS, and Windows):
+- [texlive](https://www.tug.org/texlive/) as the $\LaTeX$ distribution
+- [VS Code](https://code.visualstudio.com/) as IDE
+- [LaTeX-Workshop](https://github.com/James-Yu/LaTeX-Workshop/blob/master/README.md) as VS Code extension, see [Installation guide]
+
+For technical troubleshooting, please see the respective Discord channel.
+
 - You will keep both `report.tex` and `report.pdf` in a personal private GitHub repository. 
 - Unless specified otherwise, in the beginning, your repo should only contain the following files
     ```
