@@ -12,7 +12,7 @@
   - 354-04: TuTh 8:30AM - 9:45PM, Hashinger 150 (Jonathan)
 - Office Hours: 
   - Alexander: TuTh 2:30 - 4PM in Swenson N206
-  - Jonathan: TuTh 3 - 5PM in Swenson (3rd floor, huddle spaces)
+  - Jonathan: Tu 3 - 5PM and Th 2:15 - 4:15 in Swenson (3rd floor, huddle spaces)
 
 ## Course Description 
 
