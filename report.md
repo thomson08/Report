@@ -6,7 +6,7 @@ Our recommended $\LaTeX$ setup is as follows (all available for Linux, macOS, an
 - [texlive](https://www.tug.org/texlive/) as the $\LaTeX$ distribution
 - [VS Code](https://code.visualstudio.com/) as IDE
 - [LaTeX-Workshop](https://github.com/James-Yu/LaTeX-Workshop/blob/master/README.md) as VS Code extension, see [Installation guide](https://github.com/James-Yu/LaTeX-Workshop/wiki/Install)
-- macOS-specific guide for MacTeX and LaTeX workshop: https://sudorealm.com/blog/how-to-write-latex-documents-with-visual-studio-code-on-mac$0
+- macOS-specific guide for MacTeX and LaTeX workshop: https://sudorealm.com/blog/how-to-write-latex-documents-with-visual-studio-code-on-mac
 
 For technical troubleshooting, please see the respective Discord channel and/or the office hours.
 
