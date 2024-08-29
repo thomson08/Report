@@ -5,7 +5,7 @@ The report will be written in $\LaTeX$ (https://www.latex-project.org/). A templ
 Our recommended $\LaTeX$ setup is as follows (all available for Linux, macOS, and Windows):
 - [texlive](https://www.tug.org/texlive/) as the $\LaTeX$ distribution
 - [VS Code](https://code.visualstudio.com/) as IDE
-- [LaTeX-Workshop](https://github.com/James-Yu/LaTeX-Workshop/blob/master/README.md) as VS Code extension, see [Installation guide]
+- [LaTeX-Workshop](https://github.com/James-Yu/LaTeX-Workshop/blob/master/README.md) as VS Code extension, see [Installation guide](https://github.com/James-Yu/LaTeX-Workshop/wiki/Install)
 
 For technical troubleshooting, please see the respective Discord channel.
 
